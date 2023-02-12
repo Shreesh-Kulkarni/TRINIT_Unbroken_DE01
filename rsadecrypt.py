@@ -1,7 +1,7 @@
 n=143
 e=11
-p=11
-q=13
+#p=11
+#q=13
 phi=120
 d=0
 M=[]
@@ -17,7 +17,7 @@ for i in range(phi):
             continue
     else:
         continue
-print(d)
+#print("Private key d=",d)
 for i in c:
     m=pow(i,d,n)
     M.append(m)
